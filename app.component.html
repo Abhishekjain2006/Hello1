@@ -1,0 +1,16 @@
+
+<h1 id="heading "> Hello Welcome to the Login Page </h1>
+<div >
+<form>
+  <label for="name">Name: </label>
+  <input type="text" id="name" required >
+  <br/>
+  <label for="email"> Email: </label>
+  <input type="email" id="email" required>
+  <br/>
+  <button type="submit" class="button" (click)="submitbutton()"> submit</button>
+  <button type="reset" class="button" (click)="resetbutton()" > Reset </button>
+
+</form>
+</div>
+<router-outlet></router-outlet>
